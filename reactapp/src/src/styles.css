@@ -1,0 +1,135 @@
+.log{
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #f5f5f5; */
+  width: 60%;
+  margin-left:260px ;
+  margin-top: 50px;
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+  display: flexbox;
+  border: 5px solid;
+  margin-left: 330px;
+  width: 900px;
+}
+
+body{
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+.container{
+  margin-top: 210px;
+  /* width: 90%; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.logbtn :hover{
+  color: rgb(12, 12, 12);
+  background-color: rgb(111, 155, 193);
+}
+
+.logbtn button{
+  padding: 10px;
+  justify-content: center;
+  display: block;
+  border: black;
+  background-color: #008CBA;
+  border-radius: 5px;
+  size: 20px;
+  font-size: medium;
+}
+
+.in{
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content:center ;
+  align-items: center;
+  align-content: center;
+}
+
+.in input{
+  width: 400px;
+  margin-left: 560px;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
+.up{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.up :hover{
+  color: rgb(12, 12, 12);
+  background-color: rgb(111, 155, 193);
+}
+
+.up button{
+  padding: 10px;
+  justify-content: center;
+  display: block;
+  border: black;
+  background-color: #008CBA;
+  border-radius: 5px;
+  size: 20px;
+  font-size: medium;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.sign{
+  margin-top: 200px;
+}
+
+input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .in input{
+    width: 300px;
+    margin-left: 0px;
+    display: flex;
+  }
+  .up{
+    display: flex;
+    margin-left: 200px;
+  }
+  .form-container{
+    display: flex;
+  }
+  .in{
+    width: fit-content;
+    /* display: flex; */
+  }
+  
+
+}
