@@ -1,0 +1,86 @@
+.top{
+  margin-top: 10px;
+  border: 5px solid rgb(117, 114, 114);
+}
+body{
+  
+  background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.img img{
+  margin-left: 560px;
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.bck{
+  padding: 10px;
+}
+.bck button{
+  background-color: rgb(171, 205, 234);
+  padding: 10px;
+  opacity: 80%;
+}
+.bck :hover{
+  background-color: transparent;
+}
+p{
+  margin: 50px;
+
+}
+.top li {
+  text-decoration: none;
+  display: flex;
+}
+.top ul {
+  justify-content: space-evenly;
+  display: flex;
+}
+.top a {
+  justify-content: center;
+  font-family: serif;
+  color: black;
+}
+.con {
+  text-align: center;
+}
+.card1 {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #ccc; /* Border around the card */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the card */
+}
+.card2 {
+  display: block;
+  background-color:transparent;
+  border: 1px solid #ccc; /* Border around the card */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the card */
+}
+.cards {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-top: 50px;
+  width: auto;
+  justify-content: space-evenly;
+}
+
+/* Additional CSS for responsive layout */
+@media (max-width: 736px) {
+  .cards {
+    display: block;
+    margin-top: 30px; /* Adjust the top margin for smaller screens */
+  }
+  .card1 {
+    margin-bottom: 20px; /* Add some space between cards for smaller screens */
+  }
+  .top ul {
+    flex-direction: column; /* Stack navigation links vertically on smaller screens */
+    align-items: center; /* Center the navigation links on smaller screens */
+  }
+}
